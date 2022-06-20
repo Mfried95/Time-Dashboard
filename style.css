@@ -6,9 +6,9 @@ body{
 }
 
 .container{
-    height: 50vh;
-    width: 55%;
-    margin:  10em auto;
+    margin-right: 20em;
+    margin-top: 10em;
+    justify-content: center;
 }
 
 
@@ -16,8 +16,9 @@ body{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-  align-items: center;
+  place-items: center;
   max-width: 800px;
+  margin: auto;
 }
 
 .user{
@@ -37,6 +38,11 @@ body{
 }
 
 @media(max-width: 825px){
+
+    .container{
+        margin: auto;
+    }
+
 
     .grid-template{
         gap: 1;
