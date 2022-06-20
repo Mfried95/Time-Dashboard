@@ -15,15 +15,19 @@ body{
 .grid-template{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  gap: 2.5rem;
   place-items: center;
   max-width: 800px;
   margin: auto;
 }
 
+.grid-row-span-2{
+    grid-row: span 2;
+}
+
 .user{
     background-color: blueviolet;
-    height: 25rem;
+    height: 28rem;
     width: 15rem;
 }
 
@@ -33,13 +37,11 @@ body{
     width: 15rem;
 }
 
-.grid-row-span-2{
-    grid-row: span 2;
+.work{
+    background-color: hsl(235, 46%, 20%);
+    height: 9em;
+    margin-top: 3.5em;
 }
-
-
-
-
 
 
 /*  Mobile  */
