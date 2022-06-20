@@ -2,14 +2,15 @@ body{
     padding: 0 auto;
     margin: 0;
     height: 100vh;
-    box-sizing: border-box;
     background-color: hsl(226, 43%, 10%);
 }
 
-
 .container{
-    width: 100%;
+    height: 50vh;
+    width: 55%;
+    margin:  10em auto;
 }
+
 
 .grid-template{
   display: grid;
@@ -17,8 +18,6 @@ body{
   gap: 1rem;
   align-items: center;
   max-width: 800px;
-  margin-left: 20%;
-  margin-top: 10em;
 }
 
 .user{
