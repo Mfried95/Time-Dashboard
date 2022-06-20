@@ -37,7 +37,13 @@ body{
     grid-row: span 2;
 }
 
-@media(max-width: 825px){
+
+
+
+
+
+/*  Mobile  */
+@media(max-width: 800px){
 
     .container{
         margin: auto;
