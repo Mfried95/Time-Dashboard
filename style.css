@@ -9,14 +9,15 @@ body{
 .container{
     width: 60%;
     margin: auto;
+    padding: 10em;
 }
 
 .grid-template{
-background-color: black;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   align-items: center;
+  min-width: 700px;
 }
 
 .user{
