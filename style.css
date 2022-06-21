@@ -56,6 +56,11 @@ body{
 
 .card-info{
     border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
 }
 
 .card img{
@@ -64,6 +69,30 @@ body{
     display: flex;
     float: right;
 }
+
+.title h2{
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+.title span{
+    font-size: 2rem;
+}
+
+
+.previous-hours img{
+    width: 2em;
+    height: .5em;
+}
+
+.previous-hours p{
+    margin-top: 4em;
+}
+
+
+
+
+
 
 /* card background colors  */
 .work{
@@ -158,4 +187,5 @@ body{
     .first{
         margin-top: 6em;
     }
+    
 }
