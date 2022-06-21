@@ -40,22 +40,23 @@ body{
 .card{
     background-color: aqua;
     height: 12rem;
-    width: 15rem;
+    width: 14rem;
+    border-radius: 1rem;
 }
 
-.work{
+.card-info{
     background-color: hsl(235, 46%, 20%);
     height: 9em;
-    margin-top: 3.5em;
+    margin-top: 3em;
 }
 
 .user img{
     width: 4em;
 }
 
-
-
-
+.card-info{
+    border-radius: 1rem;
+}
 
 
 
