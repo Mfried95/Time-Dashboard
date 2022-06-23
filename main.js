@@ -39,6 +39,20 @@ document.getElementById("daily-btn").addEventListener("click", function(){
 
   // study
   studyHours.innerText = `${data[2].timeframes.daily.current} hrs`
+  studyPrevious.innerText = `Last Week ${data[2].timeframes.daily.previous} hrs`
+
+  // Excercise
+  excerciseHours.innerText = `${data[3].timeframes.daily.current} hrs`
+  excercisePrevious.innerText =`  Week ${data[3].timeframes.daily.previous} hrs`
+
+
+  // Social
+  socialHours.innerText = `${data[4].timeframes.daily.current} hrs`
+  socialPrevious.innerText =`Last Week ${data[3].timeframes.daily.previous} hrs`
+
+  // Self Care
+  selfHours.innerText = `${data[4].timeframes.daily.current} hrs`
+  selfPrevious.innerText =`Last Week ${data[3].timeframes.daily.previous} hrs`
 
   });
 })
