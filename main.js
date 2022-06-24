@@ -43,7 +43,7 @@ document.getElementById("daily-btn").addEventListener("click", function(){
 
   // Excercise
   excerciseHours.innerText = `${data[3].timeframes.daily.current} hrs`
-  excercisePrevious.innerText =`  Week ${data[3].timeframes.daily.previous} hrs`
+  excercisePrevious.innerText =` last Week ${data[3].timeframes.daily.previous} hrs`
 
 
   // Social
@@ -53,7 +53,6 @@ document.getElementById("daily-btn").addEventListener("click", function(){
   // Self Care
   selfHours.innerText = `${data[4].timeframes.daily.current} hrs`
   selfPrevious.innerText =`Last Week ${data[3].timeframes.daily.previous} hrs`
-
   });
 })
 
@@ -73,15 +72,15 @@ document.getElementById("weekly-btn").addEventListener("click", function(){
 
   // play
   playhours.innerText = `${data[1].timeframes.weekly.current} hrs`
-  playPrevious.innerText = ` Last Week - ${data[1].timeframes.weekly.previous} hrs`
+  playPrevious.innerText = ` Last week - ${data[1].timeframes.weekly.previous} hrs`
 
   // study
   studyHours.innerText = `${data[2].timeframes.weekly.current} hrs`
-  studyPrevious.innerText = `Last Week ${data[2].timeframes.weekly.previous} hrs`
+  studyPrevious.innerText = `Last week ${data[2].timeframes.weekly.previous} hrs`
 
   // Excercise
   excerciseHours.innerText = `${data[3].timeframes.weekly.current} hrs`
-  excercisePrevious.innerText =`  Week ${data[3].timeframes.weekly.previous} hrs`
+  excercisePrevious.innerText =` Last Week ${data[3].timeframes.weekly.previous} hrs`
 
 
   // Social
@@ -130,11 +129,6 @@ document.getElementById("monthly-btn").addEventListener("click", function(){
   // Self Care
   selfHours.innerText = `${data[4].timeframes.weekly.current} hrs`
   selfPrevious.innerText =`Last Week ${data[3].timeframes.monthly.previous} hrs`
-
-
-
-
-
   });
 })
 

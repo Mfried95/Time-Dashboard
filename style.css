@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,300&display=swap');
 
-
-
 body{
     padding: 0 auto;
     margin: 0;
@@ -64,11 +62,12 @@ body{
 .card-info{
     border-radius: 1rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 2em;
     color: white;
 }
+
 
 .user h2{
     font-weight: 300;
@@ -81,26 +80,16 @@ body{
     float: right;
 }
 
-.title h2{
-    margin-bottom: 1em;
-    font-size: 1.5em;
+h2{
+    font-size: 1rem;
     font-weight: 300;
 }
 
 .title span{
     font-size: 2rem;
-    font-weight: 300;
 }
 
 
-.previous-hours img{
-    width: 2em;
-    height: .5em;
-}
-
-.previous-hours p{
-    margin-top: 4em;
-}
 
 
 
@@ -193,12 +182,49 @@ body{
         width: 20em;
     }
 
+    .card-info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 1em;
+    }
+
     .first-card{
         margin-top: 0;
     }
     
     .first{
         margin-top: 6em;
+    }
+
+    .title{
+        width: 50%;
+    }
+    
+    .previous-hours{
+        width: 50%;
+    }
+
+    .title h2{
+        margin-bottom: 1em;
+        font-size: 1.5em;
+        font-weight: 300;
+    }
+    
+    .title span{
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    
+    
+    .previous-hours img{
+        width: 2em;
+        height: .5em;
+    }
+    
+    .previous-hours p{
+        margin-top: 4em;
+        font-size: .8em;
     }
     
 }
