@@ -45,7 +45,10 @@ body{
     flex-direction: column;
     padding-left: 2em;
     border-radius: 0rem 0 1rem 1rem;
-    
+}
+
+.card-info:hover{
+    background-color: hsl(236, 91%, 79%);
 }
 
 .user-card a{
