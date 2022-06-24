@@ -28,22 +28,58 @@ body{
 
 .grid-row-span-2{
     grid-row: span 2;
+    border-radius: 1rem;
 }
 
 .user{
-    background-color: blueviolet;
+    background-color: hsl(235, 45%, 61%);
     height: 28rem;
     width: 15rem;
 }
 
 .user-card{
-    height: 4em;
-    background-color: hsl(236, 100%, 87%);
+    margin-top: 14em;
+    height: 10em;
+    background-color: hsl(235, 46%, 20%);
+    display: flex;
+    flex-direction: column;
+    padding-left: 2em;
+    border-radius: 0rem 0 1rem 1rem;
+    
+}
+
+.user-card a{
+    margin-top: 1em;
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.user-card a:hover{
+    color: rgb(250, 145, 145);
+}
+
+.user-card a:focus{
+    color: rgb(250, 145, 145);
 }
 
 
+.user-card-content{
+    padding: 2em;
+    height: 0;
+}
+
+.user-card-info p{
+    font-size: 1rem;
+}
+
+.user-card-info h2{
+    font-size: 2rem;
+}
+
 .card{
-    background-color: aqua;
+    background-color: hsl(145, 58%, 55%);
     height: 12rem;
     width: 14rem;
     border-radius: 1rem;
@@ -89,7 +125,10 @@ h2{
     font-size: 2rem;
 }
 
-
+.profile-img img{
+    border: solid 3px white;
+    border-radius: 2.5rem;
+}
 
 
 
@@ -151,9 +190,20 @@ h2{
     .user-card-content{
         display: flex;
         justify-content: center;
+        flex-direction: row;
         align-items: center;
-        padding: 2em 0;
+        padding: 3em;
     }
+
+    .user-card-info h2{
+        font-size: 1rem;
+    }
+
+    .user-card a{
+        margin-top: 1em;
+        text-decoration: none;
+    }
+    
 
     .user-card-info{
         flex-direction: column;
@@ -165,15 +215,20 @@ h2{
     }
 
     .user-card{
+        margin-top: 1em;
+        height: 4.5em;
+        background-color: hsl(235, 46%, 20%);
         border-radius: 0 0 1rem 1rem;
         display: flex;
+        flex-direction: row;
         align-items: center;
-        justify-content: space-around;
     }
+    
 
     .user-card a{
         text-decoration: none;
         font-size: 1.25rem;
+        margin-left: 1em;
     }
 
     .card{
@@ -190,7 +245,7 @@ h2{
     }
 
     .first-card{
-        margin-top: 0;
+        margin-top: -1.5em;
     }
     
     .first{
